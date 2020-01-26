@@ -21,3 +21,6 @@ set_prop(vendor_init, vendor_power_prop)
 
 allow vendor_init cache_file:dir { remove_name write search };
 allow vendor_init cache_file:file unlink;
+
+# Allow vendor_init to set persist_camera_prop
+set_prop(vendor_init, vendor_persist_camera_prop)
