@@ -5,3 +5,5 @@ allow system_server app_zygote:process { getpgid };
 allow system_server sysfs_battery_supply:file { getattr open read write };
 
 allow system_server hal_power_default:binder call;
+
+r_dir_file(system_server, sysfs_battery_supply);
