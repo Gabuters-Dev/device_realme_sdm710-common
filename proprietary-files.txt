@@ -760,8 +760,8 @@ vendor/lib/libperipheral_client.so|4f4700270730d4043580a1e76566fd0124b01e18
 vendor/lib/libspcom.so|b50bdf06832965b7e7a0371eb1232e1b171eb4fd
 
 # Perf - from LA.UM.9.8.r1-02700-SDM710.0
-vendor/bin/hw/vendor.qti.hardware.perf@2.2-service|bcc0537ccf8e9c9b45c56d0f4b5da4064a5b6e4c
-vendor/etc/init/vendor.qti.hardware.perf@2.2-service.rc|459b4c23550a56ac545f78c6d391f3d7dd9ba45b
+vendor/bin/hw/vendor.qti.hardware.perf@2.2-service
+vendor/etc/init/vendor.qti.hardware.perf@2.2-service.rc
 vendor/etc/perf/commonresourceconfigs.xml|827c63cb52552af0c19a4735430f98334e1760bf
 vendor/etc/perf/perfboostsconfig.xml|04c53be260bb060fa886a21e7e8111f3916efa1a
 vendor/etc/perf/perfconfigstore.xml|cdf858be0dbddc263f5e6f7b881d8d0cf84057b6
@@ -775,7 +775,7 @@ vendor/lib64/libperfioctl.so|7bf289a68671f675ded7fb62e561e59832983138
 vendor/lib64/libqti-util.so|003df67dcd57aaa67b7e80ad2640555dcebe5287
 vendor/lib64/libqti-utils.so|e734331e086c9b78852871312429ce69092775ca
 vendor/lib64/vendor.qti.hardware.perf@2.1.so|65a22320eace1f7781510de4c7f21185773c7fc3
-vendor/lib64/vendor.qti.hardware.perf@2.2.so|9504a8618f79ceba7f4dad838c80f8804210a806
+vendor/lib64/vendor.qti.hardware.perf@2.2.so
 vendor/lib/libperfconfig.so|a6e5536fad3158e78696efbb8ed8eb0cb7815e16
 vendor/lib/libperfioctl.so|42789bf7d53750d33f501a130e47e596332744fc
 vendor/lib/libperfgluelayer.so|52cf265b9dab53f798c8c48c70eee763e9543085
@@ -784,7 +784,7 @@ vendor/lib/libqti-perfd.so|1870851617af7e1f87c95bfe77d375ba3f05d3d0
 vendor/lib/libqti-utils.so|f0396512d699825cd405cd87f59b019ae05e3f81
 vendor/lib/libqti-util.so|e0e2823d1f2414b171ed72245a147fef2b6a4e69
 vendor/lib/vendor.qti.hardware.perf@2.1.so|c7c7088be2ad6c8050798c981b0abf3e3264b924
-vendor/lib/vendor.qti.hardware.perf@2.2.so|6452c97202a60759849cd19fb870a470f164ddbf
+vendor/lib/vendor.qti.hardware.perf@2.2.so
 -framework/QPerformance.jar|b7ab031100af40016c4d67cab090b85880c20462
 -framework/UxPerformance.jar|eda6666ae69077ca49a8f5480343d559f048e916
 system_ext/bin/perfservice|f52d0e9e286d75bf180b9c7e2913d1b012a42b29
