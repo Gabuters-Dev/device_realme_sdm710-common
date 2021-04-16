@@ -66,6 +66,10 @@ sdm.debug.disable_inline_rotator_secure=1
 sdm.debug.prefersplit=1
 debug.cpurend.vsync=false
 
+# Iorap
+iorapd.perfetto.enable=true
+iorapd.readahead.enable=true
+
 # Media
 audio.offload.video=true
 media.settings.xml=/vendor/etc/media_profiles_vendor.xml
