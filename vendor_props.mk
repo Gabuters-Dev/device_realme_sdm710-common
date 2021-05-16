@@ -145,6 +145,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.vendor.at_library=libqti-at.so \
     persist.vendor.qti.games.gt.prof=1
 
+# Pre-rendering
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.vendor.perf.scroll_opt=true
+
 # Qualcomm System Daemon
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.qcomsysd.enabled=1
