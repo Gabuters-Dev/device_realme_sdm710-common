@@ -238,6 +238,15 @@
             <name>IImsCmService</name>
             <instance>qti.ims.connectionmanagerservice</instance>
         </interface>
+   </hal>
+   <hal format="hidl">
+       <name>vendor.qti.ims.factory</name>
+       <transport>hwbinder</transport>
+       <version>1.0</version>
+       <interface>
+         <name>IImsFactory</name>
+         <instance>default</instance>
+       </interface>
     </hal>
     <hal format="hidl">
         <name>com.qualcomm.qti.uceservice</name>
