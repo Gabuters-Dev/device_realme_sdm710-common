@@ -49,10 +49,9 @@ BOARD_KERNEL_CMDLINE += androidboot.init_fatal_reboot_target=recovery
 BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
 BOARD_KERNEL_PAGESIZE := 4096
 BOARD_KERNEL_SEPARATED_DTBO := true
-KERNEL_LD := LD=ld.lld
 TARGET_KERNEL_SOURCE := kernel/realme/RMX1851
-TARGET_KERNEL_NEW_GCC_COMPILE := true
-TARGET_KERNEL_ADDITIONAL_FLAGS := AS=llvm-as AR=llvm-ar NM=llvm-nm OBJCOPY=llvm-objcopy OBJDUMP=llvm-objdump STRIP=llvm-strip
+TARGET_KERNEL_CLANG_COMPILE := true
+TARGET_KERNEL_CLANG_PATH := $(PWD)/prebuilts/clang/host/linux-x86/gabuters-clang
 
 # Platform
 BOARD_USES_QCOM_HARDWARE := true
