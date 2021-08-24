@@ -93,6 +93,7 @@ PRODUCT_PACKAGES += \
     android.hardware.audio.effect@6.0-impl:32 \
     android.hardware.audio.service \
     audio.primary.sdm710 \
+    audio.primary.default \
     audio.a2dp.default \
     audio.r_submix.default \
     audio.usb.default \
@@ -145,10 +146,13 @@ PRODUCT_PACKAGES += \
 
 # Bluetooth
 PRODUCT_PACKAGES += \
+    BluetoothQti \
     android.hardware.bluetooth.audio@2.0-impl:32 \
     audio.bluetooth.default \
     BluetoothResCommon \
     libbthost_if \
+    libbluetooth_qti \
+    libbluetooth_audio_session \
     libldacBT_dec \
     vendor.qti.hardware.bluetooth_audio@2.0.vendor
 
@@ -381,6 +385,11 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
    libtflite \
    libtextclassifier_hash
+
+# QTI Common
+TARGET_COMMON_QTI_COMPONENTS := \
+    bt \
+    telephony
 
 PRODUCT_PACKAGES += \
     RemovePackages
