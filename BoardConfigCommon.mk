@@ -167,6 +167,9 @@ SELINUX_IGNORE_NEVERALLOWS := true
 # Treble
 BOARD_VNDK_VERSION := current
 
+# DT2W
+TARGET_TAP_TO_WAKE_NODE := "/proc/touchpanel/double_tap_enable"
+
 # WiFi
 BOARD_HAS_QCOM_WLAN := true
 BOARD_HAS_QCOM_WLAN_SDK := true
