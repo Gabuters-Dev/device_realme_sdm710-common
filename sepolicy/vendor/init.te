@@ -11,3 +11,4 @@ allow init sysfs:file { setattr };
 allow init sysfs_usb_supply:file { setattr };
 
 set_prop(init, vendor_power_prop)
+allow init logcat_exec:file getattr;
