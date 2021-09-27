@@ -92,12 +92,13 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Graphics
 PRODUCT_PROPERTY_OVERRIDES += \
+    debug.cpurend.vsync=true \
     debug.egl.callstack=1 \
     debug.egl.hw=0 \
     debug.mdpcomp.logs=0 \
     debug.sf.hw=1 \
     debug.sf.latch_unsignaled=0 \
-    debug.sf.disable_backpressure=1 \
+    debug.sf.disable_backpressure=0 \
     persist.sys.sf.color_saturation=1.0 \
     ro.opengles.version=196610 \
     vendor.gralloc.disable_ubwc=0 \
