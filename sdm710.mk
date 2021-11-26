@@ -153,6 +153,7 @@ PRODUCT_PACKAGES += \
 
 # Board
 PRODUCT_BOARD_PLATFORM := sdm845
+TARGET_BOARD_PLATFORM := sdm710
 PRODUCT_USES_QCOM_HARDWARE := true
 
 # Camera
@@ -441,9 +442,7 @@ PRODUCT_COPY_FILES += \
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
-    hardware/qcom/display \
-    hardware/qcom/media \
-    vendor/qcom/opensource/audio-hal/primary-hal
+    hardware/qcom-caf/sdm845
 
 # Telephony
 PRODUCT_PACKAGES += \
