@@ -406,6 +406,9 @@ PRODUCT_PACKAGES += \
    libtflite \
    libtextclassifier_hash
 
+TARGET_COMMON_QTI_COMPONENTS := \
+    perf
+
 # RealmeHub
 PRODUCT_PACKAGES += \
     RealmeHub
