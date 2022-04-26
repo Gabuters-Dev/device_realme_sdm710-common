@@ -102,11 +102,11 @@ PRODUCT_PACKAGES += \
 
 # Audio
 PRODUCT_PACKAGES += \
-    android.hardware.audio@7.0-impl \
+    android.hardware.audio@7.0-impl:32 \
     android.hardware.soundtrigger@2.2-impl:32 \
     android.hardware.soundtrigger@2.3-impl:32 \
     android.hardware.audio.effect@2.0-service \
-    android.hardware.audio.effect@7.0-impl \
+    android.hardware.audio.effect@7.0-impl:32 \
     android.hardware.audio.service \
     audio.primary.sdm710 \
     audio.a2dp.default \
