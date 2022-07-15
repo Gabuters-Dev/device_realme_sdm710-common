@@ -175,6 +175,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.sys.binary_xml=false
 
+PRODUCT_DEXPREOPT_SPEED_APPS += \
+    Settings \
+    SystemUI
+
 # Usb
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     persist.vendor.usb.config.extra=none \
