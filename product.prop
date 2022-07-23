@@ -9,3 +9,8 @@ ro.lmk.log_stats=true
 
 # Dex
 ro.sys.fw.dex2oat_thread_count=8
+
+# SkiaGL
+debug.hwui.renderer=skiagl
+debug.renderengine.backend=skiaglthreaded
+renderthread.skia.reduceopstasksplitting=true
