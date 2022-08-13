@@ -58,8 +58,7 @@ ro.config.low_ram=false
 # Iorap
 vendor.iop.enable_prefetch_ofr=1
 iorapd.perfetto.enable=true
-persist.device_config.runtime_native_boot.iorap_readahead_enable=true
-ro.iorapd.enable=true
+iorapd.readahead.enable=true
 
 # VSync
 debug.cpurend.vsync=false
