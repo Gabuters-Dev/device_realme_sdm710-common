@@ -93,6 +93,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     debug.mdpcomp.logs=0 \
     debug.sf.hw=1 \
     debug.sf.disable_backpressure=0 \
+    debug.hwui.use_buffer_age=false \
     persist.sys.sf.color_saturation=1.0 \
     ro.opengles.version=196610 \
     vendor.gralloc.disable_ubwc=0 \
