@@ -265,10 +265,6 @@ PRODUCT_PACKAGES += \
     android.hardware.drm@1.2 \
     android.hardware.drm@1.3
 
-# Doze
-PRODUCT_PACKAGES += \
-    RealmeHub
-
 # Face
 PRODUCT_PACKAGES += \
     android.hardware.biometrics.face@1.0
