@@ -240,7 +240,6 @@ PRODUCT_PACKAGES += \
     libhwc2onfbadapter \
     libqdMetaData.system \
     libqdMetaData \
-    libtinyxml \
     libvulkan \
     hwcomposer.sdm710 \
     memtrack.sdm710 \
