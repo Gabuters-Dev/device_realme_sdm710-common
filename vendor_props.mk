@@ -52,12 +52,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.kernel.ebpf.supported=true
 
-# Codec2
-PRODUCT_PROPERTY_OVERRIDES += \
-   debug.media.codec2=2 \
-   debug.stagefright.omx_default_rank.sw-audio=1 \
-   debug.stagefright.omx_default_rank=0
-
 # Camera
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.camera.gyro.disable=0
