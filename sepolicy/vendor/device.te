@@ -5,3 +5,6 @@ type goodix_device, dev_type;
 type mdmreason_device, dev_type;
 
 type emmc_block_device, dev_type;
+
+# drm
+type drm_device, dev_type;

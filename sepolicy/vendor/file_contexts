@@ -17,6 +17,9 @@
 # Sensors
 /persist/sensors(/.*)?          u:object_r:sensors_persist_file:s0
 
+# DRM
+/dev/smcinvoke                                               u:object_r:drm_device:s0
+
 # Oppo Partitions
 /dev/block/platform/soc/1d84000.ufshc/by-name/oppodycnvbk                                                u:object_r:modem_efs_partition_device:s0
 /dev/block/platform/soc/1d84000.ufshc/by-name/oppostanvbk                                                u:object_r:modem_efs_partition_device:s0
