@@ -24,3 +24,7 @@ r_dir_file(hal_fingerprint_default, mnt_vendor_file);
 
 dontaudit hal_fingerprint_default default_android_hwservice:hwservice_manager find;
 dontaudit hal_fingerprint_default default_prop:file read;
+set_prop(hal_fingerprint_default, oppo_fingerprint_prop);
+
+allow hal_fingerprint_default default_prop:file { read };
+allow hal_fingerprint_default default_prop:property_service { set };
