@@ -26,5 +26,5 @@ dontaudit hal_fingerprint_default default_android_hwservice:hwservice_manager fi
 dontaudit hal_fingerprint_default default_prop:file read;
 set_prop(hal_fingerprint_default, oppo_fingerprint_prop);
 
-allow hal_fingerprint_default default_prop:file { read };
+allow hal_fingerprint_default default_prop:file { open read };
 allow hal_fingerprint_default default_prop:property_service { set };
