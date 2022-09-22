@@ -26,6 +26,12 @@ DEVICE_PACKAGE_OVERLAYS += \
 # Vendor properties
 -include $(LOCAL_PATH)/vendor_props.mk
 
+# Adaptive Suspend
+PRODUCT_PROPERTY_OVERRIDES += \
+    suspend.short_suspend_threshold_millis=2000 \
+    suspend.short_suspend_backoff_enabled=true \
+    suspend.max_sleep_time_millis=40000
+
 # Additional native libraries
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/public.libraries.txt:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt
