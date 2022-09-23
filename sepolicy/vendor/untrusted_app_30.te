@@ -1,0 +1,2 @@
+allow untrusted_app_30 system_lib_file:file { execmod };
+allow untrusted_app_30 vendor_camera_prop:file { getattr  open  read };
