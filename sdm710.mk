@@ -261,7 +261,13 @@ PRODUCT_COPY_FILES += \
 
 # DRM
 PRODUCT_PACKAGES += \
-    android.hardware.drm@1.4-service.clearkey
+    android.hardware.drm@1.0-impl:64 \
+    android.hardware.drm@1.0-service \
+    android.hardware.drm@1.4-service.clearkey \
+    android.hardware.drm@1.0 \
+    android.hardware.drm@1.1 \
+    android.hardware.drm@1.2 \
+    android.hardware.drm@1.3
 
 # Face
 PRODUCT_PACKAGES += \
@@ -590,7 +596,10 @@ PRODUCT_PACKAGES += \
     android.hardware.confirmationui@1.0.vendor \
     android.hardware.contexthub@1.0.vendor \
     android.hardware.contexthub@1.1.vendor \
-    android.hardware.drm@1.4.vendor \
+    android.hardware.drm@1.0.vendor \
+    android.hardware.drm@1.1.vendor \
+    android.hardware.drm@1.2.vendor \
+    android.hardware.drm@1.3.vendor \
     android.hardware.dumpstate@1.0.vendor \
     android.hardware.dumpstate@1.1.vendor \
     android.hardware.fastboot@1.0.vendor \
