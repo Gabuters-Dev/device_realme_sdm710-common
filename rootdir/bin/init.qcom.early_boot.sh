@@ -475,3 +475,6 @@ case "$lcd_info" in
 esac
 
 rm -rf /data/system/storage.xml
+
+# Disable Gms Intent Operation Service
+pm disable com.google.android.gms/.chimera.GmsIntentOperationService
