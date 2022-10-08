@@ -10,7 +10,7 @@ allow hal_fingerprint_default self:netlink_socket create_socket_perms_no_ioctl;
 
 allow hal_fingerprint_default proc_oppo_fp:file r_file_perms;
 
-allow hal_fingerprint_default sysfs:file { write };
+allow hal_fingerprint_default sysfs_hal_fingerprint_default:file { write open read };
 allow hal_fingerprint_default uhid_device:chr_file { write open ioctl };
 allow hal_fingerprint_default mnt_vendor_file:dir { getattr search };
 
@@ -22,9 +22,5 @@ get_prop(hal_fingerprint_default, adsprpc_prop);
 
 r_dir_file(hal_fingerprint_default, mnt_vendor_file);
 
-dontaudit hal_fingerprint_default default_android_hwservice:hwservice_manager find;
-dontaudit hal_fingerprint_default default_prop:file read;
 set_prop(hal_fingerprint_default, oppo_fingerprint_prop);
 
-allow hal_fingerprint_default default_prop:file { open read };
-allow hal_fingerprint_default default_prop:property_service { set };
