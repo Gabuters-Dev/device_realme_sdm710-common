@@ -371,10 +371,6 @@ PRODUCT_PACKAGES += \
     netutils-wrapper-1.0 \
     offload.o
 
-# Now Playing
-PRODUCT_PACKAGES += \
-    NowPlayingOverlay
-
 # OMX
 PRODUCT_PACKAGES += \
     libc2dcolorconvert \
