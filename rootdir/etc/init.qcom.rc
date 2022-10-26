@@ -298,6 +298,9 @@ on boot
 
     setprop init.svc.console stopped
 
+    # default country code
+    setprop ro.boot.wificountrycode 00
+
 # msm specific files that need to be created on /data
 on post-fs-data
     mkdir /data/vendor/misc 01771 system system
