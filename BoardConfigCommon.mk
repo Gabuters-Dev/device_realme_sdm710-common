@@ -55,7 +55,8 @@ TARGET_KERNEL_OPTIONAL_LD := true
 TARGET_KERNEL_ADDITIONAL_FLAGS := \
     HOSTCFLAGS="-fuse-ld=lld -Wno-unused-command-lin8e-argument"
 TARGET_KERNEL_CLANG_COMPILE := true
-TARGET_KERNEL_CLANG_PATH := $(shell pwd)/proton-clang
+TARGET_KERNEL_CLANG_VERSION := r416183b1
+TARGET_KERNEL_CLANG_PATH := $(shell pwd)/prebuilts/clang/host/linux-x86/clang-r416183b1
 TARGET_KERNEL_SOURCE := kernel/realme/RMX1851
 
 # Platform
