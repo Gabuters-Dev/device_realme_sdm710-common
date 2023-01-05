@@ -94,6 +94,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     debug.hwui.use_hint_manager=true \
     debug.hwui.target_cpu_time_percent=30 \
     debug.sf.auto_latch_unsignaled=true \
+    debug.sf.disable_backpressure=1 \
     persist.sys.sf.color_saturation=1.0 \
     ro.opengles.version=196610 \
     vendor.gralloc.disable_ubwc=0 \
