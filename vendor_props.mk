@@ -99,6 +99,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.opengles.version=196610 \
     vendor.gralloc.disable_ubwc=0 \
     debug.hwui.use_hint_manager=true \
+    debug.sf.enable_transaction_tracing=false \
     debug.hwui.target_cpu_time_percent=30 \
     ro.config.avoid_gfx_accel=true \
     debug.sf.disable_client_composition_cache=1 \
