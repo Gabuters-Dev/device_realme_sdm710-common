@@ -29,7 +29,6 @@ import com.realme.hub.util.Utils;
 import com.realme.hub.doze.DozeUtils;
 import com.realme.hub.vibration.VibratorStrengthPreference;
 import com.realme.hub.kcal.DisplayCalibration;
-import com.realme.hub.dirac.DiracUtils;
 import java.io.File;
 import androidx.preference.PreferenceManager;
 
@@ -54,7 +53,6 @@ public class BootReceiver extends BroadcastReceiver {
 
     @Override
     public void onReceive(final Context context, Intent intent) {
-        new DiracUtils(context).onBootCompleted();
         if (intent.getAction().equals(Intent.ACTION_BOOT_COMPLETED)) {
                 enableComponent(context, ScreenOffGesture.class.getName());
                 SharedPreferences screenOffGestureSharedPreferences = context.getSharedPreferences(

@@ -9,6 +9,3 @@
 -keepclassmembers public class com.realme.hub.KeyHandler {
     *;
 }
--keep class com.realme.hub.dirac.* {
-  *;
-}
